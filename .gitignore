@@ -38,3 +38,5 @@ build/
 node_modules
 
 *.user
+
+.history/
