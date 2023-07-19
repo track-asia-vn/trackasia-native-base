@@ -7,3 +7,5 @@ trackasia-native-base
 A collection of common static and header-only C++ libraries used among our native SDKs.
 
 Part of the [Trackasia](https://trackasia.org) organization
+
+git clone --recurse-submodules [git]
