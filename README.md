@@ -81,3 +81,6 @@ Backers and Supporters:
 ## License
 
 **TrackAsia Native** is licensed under the [BSD 2-Clause License](./LICENSE.md).
+Part of the [Trackasia](https://trackasia.org) organization
+
+git clone --recurse-submodules [git]
