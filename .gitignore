@@ -1,42 +1,47 @@
-# Prerequisites
-*.d
+/mapbox-gl-native-android/TrackAsiaGLAndroidSDK/mapbox-gl-native
+/mapbox-gl-native-android/TrackAsiaGLAndroidSDKTestApp/mapbox-gl-native
+/platform/android/TrackAsiaGLAndroidSDKTestApp/src/main/res/values/developer-config.xml
+/platform/android/local.properties
+/platform/android/gradle/configuration.gradle
+/platform/android/arm64-v8a
+/platform/android/armeabi-v7a
+/platform/android/TrackAsiaGLAndroidSDK/.cxx
+/platform/android/TrackAsiaGLAndroidSDK/build
+/platform/android/TrackAsiaGLAndroidSDKTestApp/.cxx
+/platform/android/TrackAsiaGLAndroidSDKTestApp/build
+/platform/android/.gradle
+/platform/android/x86
+/platform/android/x86_64
+/cmake-build-debug
+/platform/android/build
+/platform/android/TrackAsiaGLAndroidSDK/src/main/assets/sdk_versions/com.mapbox.mapboxsdk
+/platform/ios/platform/ios/Mapbox.playground/build/
+/platform/windows/vendor/mesa3d/
+*.code-workspace
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# CMake build folder
-build/
-
-# NPM modules
+.DS_Store
+.cache
+/build
+**/.idea
+/platform/android/TrackAsiaGLAndroidSDKTestApp/local.properties
+/new_offline.db
+*.gpg
+/.vscode
+/platform/android/node_modules
+/platform/android/signing-key.text
+/platform/android/.java-version
+*.hprof
+/platform/ios/platform/ios/benchmark/assets/tiles/tiles
+/platform/ios/platform/ios/benchmark/assets/glyphs/Roboto Regular,Noto Sans Regular
+/platform/ios/platform/ios/benchmark/assets/glyphs/Roboto Medium,Noto Sans Regular
+/platform/ios/platform/ios/benchmark/assets/glyphs/Roboto Condensed Italic,Noto Sans Italic
+/platform/ios/platform/ios/benchmark/assets/glyphs/Noto Sans Regular
+/platform/android/key.json
 node_modules
+# Node binaries.
+/lib
 
-*.user
-
-.history/
+/bazel-*
+CMakeLists.txt.user
+CMakeFiles
+node_modules

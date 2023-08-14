@@ -1,0 +1,29 @@
+name: ios-release
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: [self-hosted, macOS, ARM64]
+    defaults:
+      run:
+        working-directory: platform/ios
+        shell: bash 
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: npm install
+        run: npm ci --ignore-scripts
+
+      - run: chmod +x scripts/deploy-swift-package.sh
+
+      - name: Build, package, and upload iOS release
+        run: scripts/deploy-swift-package.sh
+        env:
+          DIST_GITHUB_TOKEN: ${{ secrets.DIST_GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
