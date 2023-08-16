@@ -1,51 +1,48 @@
-[submodule "vendor/earcut.hpp"]
-	path = vendor/earcut.hpp
-	url = https://github.com/mapbox/earcut.hpp.git
-[submodule "vendor/polylabel"]
-	path = vendor/polylabel
-	url = https://github.com/mapbox/polylabel.git
-[submodule "vendor/protozero"]
-	path = vendor/protozero
-	url = https://github.com/mapbox/protozero.git
-[submodule "vendor/vector-tile"]
-	path = vendor/vector-tile
-	url = https://github.com/mapbox/vector-tile.git
-[submodule "vendor/wagyu"]
-	path = vendor/wagyu
-	url = https://github.com/mapbox/wagyu.git
-[submodule "vendor/unique_resource"]
-	path = vendor/unique_resource
-	url = https://github.com/okdshin/unique_resource.git
-[submodule "vendor/boost"]
-	path = vendor/boost
-	url = https://github.com/maplibre/maplibre-gl-native-boost.git
-[submodule "vendor/benchmark"]
-	path = vendor/benchmark
-	url = https://github.com/google/benchmark.git
-[submodule "vendor/eternal"]
-	path = vendor/eternal
-	url = https://github.com/mapbox/eternal.git
-[submodule "vendor/mapbox-base"]
-	path = vendor/mapbox-base
-	url = https://github.com/maplibre/maplibre-native-base.git
-[submodule "vendor/googletest"]
-	path = vendor/googletest
+[submodule "libs/geometry.hpp"]
+	path = deps/geometry.hpp
+	url = https://github.com/mapbox/geometry.hpp.git
+[submodule "libs/variant"]
+	path = deps/variant
+	url = https://github.com/mapbox/variant.git
+[submodule "libs/optional"]
+	path = deps/optional
+	url = https://github.com/mapbox/Optional.git
+[submodule "libs/args"]
+	path = extras/args
+	url = https://github.com/Taywee/args
+[submodule "libs/expected-lite"]
+	path = extras/expected-lite
+	url = https://github.com/martinmoene/expected-lite.git
+[submodule "libs/filesystem"]
+	path = extras/filesystem
+	url = https://github.com/gulrak/filesystem.git
+[submodule "libs/pixelmatch-cpp"]
+	path = deps/pixelmatch-cpp
+	url = https://github.com/mapbox/pixelmatch-cpp.git
+[submodule "libs/rapidjson"]
+	path = extras/rapidjson
+	url = https://github.com/Tencent/rapidjson.git
+[submodule "mapbox/jni.hpp"]
+	path = deps/jni.hpp
+	url = https://github.com/mapbox/jni.hpp.git
+[submodule "mapbox/geojson.hpp"]
+	path = deps/geojson.hpp
+	url = https://github.com/mapbox/geojson.hpp.git
+[submodule "mapbox/supercluster.hpp"]
+	path = deps/supercluster.hpp
+	url = https://github.com/mapbox/supercluster.hpp.git
+[submodule "extras/kdbush.hpp"]
+	path = extras/kdbush.hpp
+	url = https://github.com/mourner/kdbush.hpp.git
+[submodule "mapbox/cheap-ruler-cpp"]
+	path = deps/cheap-ruler-cpp
+	url = https://github.com/mapbox/cheap-ruler-cpp.git
+[submodule "mapbox/shelf-pack-cpp"]
+	path = deps/shelf-pack-cpp
+	url = https://github.com/mapbox/shelf-pack-cpp.git
+[submodule "mapbox/geojson-vt-cpp"]
+	path = deps/geojson-vt-cpp
+	url = https://github.com/mapbox/geojson-vt-cpp.git
+[submodule "extras/googletest"]
+	path = extras/googletest
 	url = https://github.com/google/googletest.git
-[submodule "vendor/zip-archive"]
-	path = vendor/zip-archive
-	url = https://github.com/ZipArchive/ZipArchive.git
-[submodule "vendor/cpp-httplib"]
-	path = vendor/cpp-httplib
-	url = https://github.com/yhirose/cpp-httplib.git
-[submodule "platform/android/vendor/maplibre-java"]
-	path = platform/android/vendor/maplibre-java
-	url = https://github.com/maplibre/maplibre-java
-[submodule "platform/android/vendor/mapbox-gestures-android"]
-	path = platform/android/vendor/mapbox-gestures-android
-	url = https://github.com/mapbox/mapbox-gestures-android.git
-[submodule "docs/doxygen/doxygen-awesome-css"]
-	path = docs/doxygen/doxygen-awesome-css
-	url = https://github.com/jothepro/doxygen-awesome-css.git
-[submodule "platform/windows/vendor/vcpkg"]
-	path = platform/windows/vendor/vcpkg
-	url = https://github.com/microsoft/vcpkg.git
